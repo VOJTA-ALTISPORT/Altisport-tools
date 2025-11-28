@@ -6,8 +6,8 @@ import io
 import zipfile
 
 # --- Nastavení stránky ---
-st.set_page_config(page_title="Altisport XML Master 23", layout="wide", page_icon="⛷️")
-st.title("⛷️ Altisport XML Master 23 (Hybrid Safe)")
+st.set_page_config(page_title="Altisport XML Master", layout="wide", page_icon="⛷️")
+st.title("⛷️ Altisport XML Master 23")
 
 # --- Inicializace Paměti ---
 if 'df' not in st.session_state: st.session_state.df = None
